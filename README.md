@@ -32,7 +32,8 @@ cd statuscode
 chmod -x ./install.sh
 # run the installation script
 ./install.sh
-
+```
+```powershell
 # [on Windows], make sure scripts have permission to run
 . .\install.ps1
 ```
