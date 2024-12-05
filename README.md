@@ -1,6 +1,9 @@
 # Description
 `$ statuscode` _HTTP Status Code Lookup_
 
+> ⛔
+__Caution:__ `statuscode` is still under development. Do not try to install it.
+
 A CLI app for looking up HTTP status codes from the comfort of your terminal.
 
 Instantly retrieve information on HTTP status codes, including their meaning, description, and specification. No more tedious web searches or cumbersome documentation.
