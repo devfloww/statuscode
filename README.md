@@ -23,7 +23,7 @@ npm install statuscode
 or by cloning the repo and installing manually:
 ```bash
 # cloning the repo
-git clone https://github.com/devfloww/statuscode.git
+git clone https://github.com/devfloww/statuscode
 # enter the cloned repo directory
 cd statuscode
 
@@ -73,5 +73,5 @@ Mail me @ [svdiqhayatuddeen@gmail.com](mailto:svdiqhayatuddeen@gmail.com) or rai
 
 # Support me
 Buy me coffee to support😅.\
-<a href="https://buymeacoffee.com/devfloww" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/default-orange.png" alt="Buy Me A Coffee" height="41" width="174"></a>
 
+<a href="https://buymeacoffee.com/devfloww" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/default-orange.png" alt="Buy Me A Coffee" height="41" width="174"></a>

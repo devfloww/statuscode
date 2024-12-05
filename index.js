@@ -10,6 +10,7 @@ import { hideBin } from "yargs/helpers";
 import { showBanner } from "./src/Banner.js"
 import { LoadData } from "./src/LoadData.js"
 import { DisplayShort } from "./src/DisplayShort.js"
+import { DisplayLong } from "./src/DisplayLong.js"
 
 // Importing helper functions
 import { sanitize_status_code_h } from "./src/helper_functions/sanitize_status_code.js";
@@ -59,5 +60,11 @@ if (args.code || args.c) {
   const sanitized_code = sanitize_status_code_h(args.code)
   const code_data = LoadData(sanitized_code)
 
+  // check if the long flag is enabled
+  if (args.long && args.l) {
+    // display the long version 
+    DisplayLong(code_data)
+  }
+  // else just display the short version
   DisplayShort(code_data)
 }
