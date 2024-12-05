@@ -72,3 +72,6 @@ npm remove statuscode
 Mail me @ [svdiqhayatuddeen@gmail.com](mailto:svdiqhayatuddeen@gmail.com) or raise an _Issue_ here on Github. Thank you.
 
 # Support me
+Buy me coffee to support😅.\
+<a href="https://www.buymeacoffee.com/devfloww" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/default-orange.png" alt="Buy Me A Coffee" height="41" width="174"></a>
+
