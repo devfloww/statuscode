@@ -1,0 +1,7 @@
+{
+  "code": 408,
+  "name": "Request Timeout",
+  "description": "Indicates that the server timed out waiting for the client to send the request body.",
+  "specification": "HTTP/1.1 specification (RFC 2616)",
+  "reference": "https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/408"
+}

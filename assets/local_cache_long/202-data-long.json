@@ -1,0 +1,7 @@
+{
+    "code": 202,
+    "name": "Accepted",
+    "description": "Indicates that the request has been accepted for processing, but the processing has not been completed.",
+    "specification": "HTTP/1.1 specification (RFC 2616)",
+    "reference": "https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/202"
+}

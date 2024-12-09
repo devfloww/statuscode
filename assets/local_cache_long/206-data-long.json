@@ -1,0 +1,7 @@
+{
+    "code": 206,
+    "name": "Partial Content",
+    "description": "Indicates that the server is delivering only part of the resource due to a range header sent by the client.",
+    "specification": "HTTP/1.1 specification (RFC 2616)",
+    "reference": "https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/206"
+}

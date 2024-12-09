@@ -1,0 +1,7 @@
+{
+    "code": 200,
+    "name": "OK",
+    "description": "Indicates that the request was successful.",
+    "specification": "HTTP/1.1 specification (RFC 2616)",
+    "reference": "https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/200"
+}

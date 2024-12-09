@@ -1,0 +1,7 @@
+{
+    "code": 103,
+    "name": "Early Hints",
+    "description": "This indicates that the server is sending additional headers ahead of the response body.",
+    "specification": "HTTP/2 specification (RFC 7540)",
+    "reference": "https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/103"
+}

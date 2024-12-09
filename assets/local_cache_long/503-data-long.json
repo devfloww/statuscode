@@ -1,0 +1,7 @@
+{
+  "code": 503,
+  "name": "Service Unavailable",
+  "description": "Indicates that the server is currently unable to handle the request due to overload or maintenance.",
+  "specification": "HTTP/1.1 specification (RFC 2616)",
+  "reference": "https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/503"
+}

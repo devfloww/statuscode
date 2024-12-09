@@ -1,0 +1,7 @@
+{
+  "code": 413,
+  "name": "Payload Too Large",
+  "description": "Indicates that the request entity is larger than the server is willing to process.",
+  "specification": "HTTP/1.1 specification (RFC 2616)",
+  "reference": "https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/413"
+}

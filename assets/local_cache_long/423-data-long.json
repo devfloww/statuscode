@@ -1,0 +1,7 @@
+{
+  "code": 423,
+  "name": "Locked",
+  "description": "Indicates that the resource that the request is attempting to access is locked.",
+  "specification": "WebDAV (RFC 4918)",
+  "reference": "https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/423"
+}

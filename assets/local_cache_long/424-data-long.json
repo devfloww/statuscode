@@ -1,0 +1,6 @@
+{
+  "code": 424,
+  "name": "Failed Dependency",
+  "description": "Indicates that the request failed because it depended on the state of another resource that the server was unable to fulfill.",
+  "specification": "WebDAV (RFC 4918"
+}

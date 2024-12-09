@@ -1,0 +1,7 @@
+{
+  "code": 415,
+  "name": "Unsupported Media Type",
+  "description": "Indicates that the server refuses to accept the request because the request entity is in a format not supported by the requested resource.",
+  "specification": "HTTP/1.1 specification (RFC 2616)",
+  "reference": "https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/415"
+}

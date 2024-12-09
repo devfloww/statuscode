@@ -1,0 +1,7 @@
+{
+  "code": 506,
+  "name": "Variant Also Negotiates",
+  "description": "Indicates that the server has an internal configuration error: transparent content negotiation for the request results in a circular reference.",
+  "specification": "HTTP/1.1 specification (RFC 2616)",
+  "reference": "https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/506"
+}

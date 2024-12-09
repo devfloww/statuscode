@@ -1,0 +1,7 @@
+{
+    "code": 201,
+    "name": "Created",
+    "description": "Indicates that the request has been fulfilled and resulted in the creation of a new resource.",
+    "specification": "HTTP/1.1 specification (RFC 2616)",
+    "reference": "https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/201"
+}

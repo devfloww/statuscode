@@ -1,0 +1,7 @@
+{
+    "code": 208,
+    "name": "Already Reported",
+    "description": "Indicates that the server has already sent a full response for the request. This is intended for servers that use a stateful protocol to identify subsequent requests.",
+    "specification": "WebDAV (RFC 5842)",
+    "reference": "https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/208"
+}

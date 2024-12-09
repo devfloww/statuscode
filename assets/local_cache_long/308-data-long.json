@@ -1,0 +1,7 @@
+{
+  "code": 307,
+  "name": "Temporary Redirect",
+  "description": "Indicates that the resource has been temporarily moved to a new location.",
+  "specification": "HTTP/1.1 specification (RFC 2616)",
+  "reference": "https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/307"
+}

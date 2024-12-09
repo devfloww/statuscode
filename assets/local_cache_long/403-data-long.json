@@ -1,0 +1,7 @@
+{
+  "code": 403,
+  "name": "Forbidden",
+  "description": "Indicates that the server understood the request but refuses to fulfill it.",
+  "specification": "HTTP/1.1 specification (RFC 2616)",
+  "reference": "https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
+}

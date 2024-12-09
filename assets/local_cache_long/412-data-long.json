@@ -1,0 +1,7 @@
+{
+  "code": 412,
+  "name": "Precondition Failed",
+  "description": "Indicates that one or more preconditions given in the request header fields evaluated to false.",
+  "specification": "HTTP/1.1 specification (RFC 2616)",
+  "reference": "https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/412"
+}

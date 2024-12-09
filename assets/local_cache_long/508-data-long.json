@@ -1,0 +1,7 @@
+{
+  "code": 508,
+  "name": "Loop Detected",
+  "description": "Indicates that the server detected an infinite loop while processing the request.",
+  "specification": "WebDAV (RFC 5842)",
+  "reference": "https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/508"
+}

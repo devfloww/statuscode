@@ -1,0 +1,7 @@
+{
+    "code": 209,
+    "name": "IM Used",
+    "description": "Indicates that the server has performed actions appropriate to the request, but is not returning a body because the user-agent has already obtained the requested information.",
+    "specification": "WebDAV (RFC 5842)",
+    "reference": "https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/209"
+}

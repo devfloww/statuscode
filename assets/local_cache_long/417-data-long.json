@@ -1,0 +1,7 @@
+{
+  "code": 417,
+  "name": "Expectation Failed",
+  "description": "Indicates that the server could not meet the expectations specified in the Expect header.",
+  "specification": "HTTP/1.1 specification (RFC 2616)",
+  "reference": "https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/417"
+}

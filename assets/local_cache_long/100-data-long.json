@@ -1,0 +1,7 @@
+{
+    "code": 100,
+    "name": "Continue",
+    "description": "This informational response code indicates that the initial part of a request has been received by the server and that the client should proceed with the request or ignore the response if the request has already finished.",
+    "specification": "HTTP/1.1 specification (RFC 2616)",
+    "reference": "https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/100"
+  }

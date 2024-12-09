@@ -1,0 +1,7 @@
+{
+  "code": 418,
+  "name": "I'm a teapot",
+  "description": "A humorous code indicating that the server is a teapot and cannot brew coffee.",
+  "specification": "HTTP/1.1 specification (RFC 2324)",
+  "reference": "https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/418"
+}

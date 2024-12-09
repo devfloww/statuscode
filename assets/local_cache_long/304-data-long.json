@@ -1,0 +1,7 @@
+{
+  "code": 303,
+  "name": "See Other",
+  "description": "Indicates that the resource can be found under a different URI.",
+  "specification": "HTTP/1.1 specification (RFC 2616)",
+  "reference": "https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/303"
+}

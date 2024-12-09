@@ -1,0 +1,7 @@
+{
+  "code": 401,
+  "name": "Unauthorized",
+  "description": "Indicates that the request requires user authentication.",
+  "specification": "HTTP/1.1 specification (RFC 2616)",
+  "reference": "https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/401"
+}

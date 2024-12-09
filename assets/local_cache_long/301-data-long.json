@@ -1,0 +1,7 @@
+{
+  "code": 300,
+  "name": "Multiple Choices",
+  "description": "Indicates that the resource has multiple representations, and the client may choose one of them.",
+  "specification": "HTTP/1.1 specification (RFC 2616)",
+  "reference": "https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/300"
+}

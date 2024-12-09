@@ -1,0 +1,7 @@
+{
+  "code": 414,
+  "name": "URI Too Long",
+  "description": "Indicates that the request-target is too long.",
+  "specification": "HTTP/1.1 specification (RFC 2616)",
+  "reference": "https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/414"
+}

@@ -1,0 +1,7 @@
+{
+    "code": 102,
+    "name": "Processing",
+    "description": "This indicates that the server has received and is processing the request, but no response is available yet.",
+    "specification": "HTTP/1.1 specification (RFC 2518)",
+    "reference": "https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/102"
+}

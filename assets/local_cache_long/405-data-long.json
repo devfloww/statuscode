@@ -1,0 +1,7 @@
+{
+  "code": 405,
+  "name": "Method Not Allowed",
+  "description": "Indicates that the specified HTTP method is not allowed for the requested resource.",
+  "specification": "HTTP/1.1 specification (RFC 2616)",
+  "reference": "https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/405"
+}

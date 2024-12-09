@@ -1,0 +1,7 @@
+{
+  "code": 407,
+  "name": "Proxy Authentication Required",
+  "description": "Indicates that the client must authenticate itself with the proxy server.",
+  "specification": "HTTP/1.1 specification (RFC 2616)",
+  "reference": "https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/407"
+}

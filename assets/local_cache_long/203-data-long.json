@@ -1,0 +1,7 @@
+{
+    "code": 203,
+    "name": "Non-Authoritative Information",
+    "description": "Indicates that the server is a transforming proxy (e.g. a Web accelerator) and that the information it has returned is not necessarily the information stored on the origin server.",
+    "specification": "HTTP/1.1 specification (RFC 2616)",
+    "reference": "https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/203"
+}

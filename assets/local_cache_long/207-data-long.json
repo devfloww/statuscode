@@ -1,0 +1,7 @@
+{
+    "code": 207,
+    "name": "Multi-Status",
+    "description": "Indicates multiple independent status codes for multiple independent sub-requests in a single HTTP request.",
+    "specification": "WebDAV (RFC 4918)",
+    "reference": "https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/207"
+}

@@ -1,0 +1,7 @@
+{
+    "code": 101,
+    "name": "Switching Protocols",
+    "description": "This indicates that the server is switching protocols to fulfill the request.",
+    "specification": "HTTP/1.1 specification (RFC 2616)",
+    "reference": "https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/101"
+}

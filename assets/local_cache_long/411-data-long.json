@@ -1,0 +1,7 @@
+{
+  "code": 411,
+  "name": "Length Required",
+  "description": "Indicates that the request must specify a Content-Length header field.",
+  "specification": "HTTP/1.1 specification (RFC 2616)",
+  "reference": "https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/411"
+}

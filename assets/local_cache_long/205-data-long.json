@@ -1,0 +1,7 @@
+{
+    "code": 205,
+    "name": "Reset Content",
+    "description": "Indicates that the server successfully processed the request, but is not returning any content. Additionally, the client should reset the document view.",
+    "specification": "HTTP/1.1 specification (RFC 2616)",
+    "reference": "https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/205"
+}

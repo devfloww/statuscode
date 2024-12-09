@@ -1,0 +1,7 @@
+{
+  "code": 507,
+  "name": "Insufficient Storage",
+  "description": "Indicates that the server is unable to store the representation needed to fulfill the request.",
+  "specification": "WebDAV (RFC 4918)",
+  "reference": "https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/507"
+}

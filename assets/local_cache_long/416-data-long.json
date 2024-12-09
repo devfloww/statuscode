@@ -1,0 +1,7 @@
+{
+  "code": 416,
+  "name": "Range Not Satisfiable",
+  "description": "Indicates that the client has requested a range of bytes from a resource that the server cannot supply.",
+  "specification": "HTTP/1.1 specification (RFC 2616)",
+  "reference": "https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/416"
+}

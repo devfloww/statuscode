@@ -1,0 +1,7 @@
+{
+  "code": 409,
+  "name": "Conflict",
+  "description": "Indicates that the request could not be completed due to a conflict with the current state of the resource.",
+  "specification": "HTTP/1.1 specification (RFC 2616)",
+  "reference": "https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/409"
+}
