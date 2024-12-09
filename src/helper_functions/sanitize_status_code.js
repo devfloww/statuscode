@@ -1,4 +1,5 @@
 // function to check for and sanitize the status code upplied by user
+
 export const sanitize_status_code_h = ( code ) => {
   let status_code = code
   if (!(Number.isFinite(status_code) && !Number.isInteger(status_code))) {
@@ -8,6 +9,10 @@ export const sanitize_status_code_h = ( code ) => {
       return -1
     }
   } else {
-    return -1
+    return {
+      code: code,
+      err_code: -1
+    }
   }
 }
+

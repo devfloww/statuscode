@@ -8,14 +8,15 @@ export const LoadData = ( code ) => {
     try {
         const data = fs.readFileSync( `./assets/local_cache/${code_number}-data-short.json`, "utf8" )
         const json = JSON.parse( data )
-      // console.log(json)
       // return the the data
       return json
       
     } catch (error) {
-    return {
-      error: "File missing",
-      message: "Update the local cache"
-    }
+      //return a json error
+      return {
+        code,
+        error: "File missing",
+        message: "Status code in UNASSIGNED"
+      }
     }
 }
