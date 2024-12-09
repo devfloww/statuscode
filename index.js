@@ -8,7 +8,7 @@ import { hideBin } from "yargs/helpers";
 
 // Importing dependent files
 import { showBanner } from "./src/Banner.js"
-import { LoadData } from "./src/LoadData.js"
+import { LoadDataShort, LoadDataLong } from "./src/LoadData.js"
 import { DisplayShort } from "./src/DisplayShort.js"
 import { DisplayLong } from "./src/DisplayLong.js"
 
@@ -58,13 +58,15 @@ if (!(args.code || args.help || args.remove || args.update || args.long || args.
 // check if status code was  supplied by user
 if (args.code || args.c) {
   const sanitized_code = sanitize_status_code_h(args.code)
-  const code_data = LoadData(sanitized_code)
 
   // check if the long flag is enabled
   if (args.long && args.l) {
-    // display the long version 
+    // display the long version
+    const code_data = LoadDataLong(sanitized_code)
     DisplayLong(code_data)
+  } else {
+    // else just display the short version
+    const code_data = LoadDataShort(sanitized_code)
+    DisplayShort(code_data)
   }
-  // else just display the short version
-  DisplayShort(code_data)
 }

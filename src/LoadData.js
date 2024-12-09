@@ -2,7 +2,7 @@
 
 import fs from "fs"
 
-// loads data for shot format
+// loads data for short format
 export const LoadDataShort = ( code ) => {
   const code_number = String(code)
     // 
