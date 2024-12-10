@@ -11,6 +11,7 @@ import { showBanner } from "./src/Banner.js"
 import { LoadDataShort, LoadDataLong } from "./src/LoadData.js"
 import { DisplayShort } from "./src/DisplayShort.js"
 import { DisplayLong } from "./src/DisplayLong.js"
+import { Remove } from "./src/Remove.js"
 
 // Importing helper functions
 import { sanitize_status_code_h } from "./src/helper_functions/sanitize_status_code.js";
@@ -46,6 +47,12 @@ const parser = yargs(hideBin(process.argv))
 
 // parsing the arguments
 const args = parser.parse();
+
+// Check to see if user wants to Uninstall the app
+if (args.remove || args.r) {
+  // Remove the application 
+  Remove()
+}
 
 // Check to see if no arguments were supplied
 if (!(args.code || args.help || args.remove || args.update || args.long || args.short)) {

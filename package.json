@@ -9,7 +9,8 @@
   "main": "index.js",
   "type": "module",
   "scripts": {
-    "test": "statuscode"
+    "test": "statuscode",
+    "postuninstall": "node ./src/Remove.js"
   },
   "keywords": [],
   "author": "devfloww",
