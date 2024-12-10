@@ -11,7 +11,7 @@ import { showBanner } from "./src/Banner.js"
 import { LoadDataShort, LoadDataLong } from "./src/LoadData.js"
 import { DisplayShort } from "./src/DisplayShort.js"
 import { DisplayLong } from "./src/DisplayLong.js"
-import { Remove } from "./src/Remove.js"
+import { Remove } from "./src/uninstall.js"
 
 // Importing helper functions
 import { sanitize_status_code_h } from "./src/helper_functions/sanitize_status_code.js";

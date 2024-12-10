@@ -10,7 +10,7 @@
   "type": "module",
   "scripts": {
     "test": "statuscode",
-    "postuninstall": "node ./src/Remove.js"
+    "postuninstall": "node ./src/uninstall.js"
   },
   "keywords": [],
   "author": "devfloww",
