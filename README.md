@@ -1,3 +1,4 @@
+![logo](./assets/images/statuscode-logo.png)
 # Description
 `$ statuscode` _HTTP Status Code Lookup_
 
