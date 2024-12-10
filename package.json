@@ -1,18 +1,22 @@
 {
   "name": "statuscode",
   "version": "1.0.0",
-  "description": "",
+  "description": "A CLI application that helps you look up HTTP status codes from your terminal",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/devfloww/statuscode.git"
+  },
   "main": "index.js",
   "type": "module",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "statuscode"
   },
   "keywords": [],
   "author": "devfloww",
   "bin": {
     "statuscode": "./index.js"
   },
-  "license": "ISC",
+  "license": "MIT",
   "dependencies": {
     "@types/node": "^18.0.6",
     "axios": "^1.7.8",
