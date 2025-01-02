@@ -4,6 +4,11 @@ import path from "path"
 import { fileURLToPath } from 'url'
 import { dirname } from 'path'
 
+// importing files and functions
+import {
+  failure,
+} from "../helper_functions/Tags.js"
+
 // Get the directory name equivalent to __dirname
 const __filename = fileURLToPath(import.meta.url)
 const __dirname = dirname(__filename)
@@ -18,11 +23,11 @@ function getAppName() {
     if (packageJson.name) {
       return packageJson.name
     } else {
-      console.error('Error: "name" field is missing in package.json.')
+      console.error(`${failure} Error: "name" field is missing in package.json.`)
       return null
     }
   } catch (error) {
-    console.error('Error reading package.json:', error.message)
+    console.error(`${failure} Error reading package.json:\n${error.message}`)
     return null
   }
 }
