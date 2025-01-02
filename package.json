@@ -1,6 +1,6 @@
 {
   "name": "statuscode",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A CLI application that helps you look up HTTP status codes from your terminal",
   "repository": {
     "type": "git",
