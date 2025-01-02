@@ -27,16 +27,14 @@ or by cloning the repo and installing manually:
 git clone https://github.com/devfloww/statuscode
 # enter the cloned repo directory
 cd statuscode
-
-# [on Linux | POSIX]
-# give installation script run permissions 
-chmod -x ./install.sh
-# run the installation script
-./install.sh
-```
-```powershell
-# [on Windows], make sure scripts have permission to run
-. .\install.ps1
+# Install the dependences
+npm install
+# Create a symlink of the program
+npm link
+# Now, run the command
+statuscode --help
+# or sometimes on windows 
+statuscode.cmd --help
 ```
 ## Usage
 - To seek help:
