@@ -13,9 +13,11 @@ import { DisplayShort } from "./src/DisplayShort.js"
 import { DisplayLong } from "./src/DisplayLong.js"
 import { Remove } from "./src/uninstall.js"
 import { UpdateApp } from "./src/UpdateApp.js"
+import { checkInternetConnection } from "./src/helper_functions/checkInternetConnection_h.js"
 
 // Importing helper functions
 import { sanitize_status_code_h } from "./src/helper_functions/sanitize_status_code.js";
+import { failure } from "./src/helper_functions/Tags.js"
 
 // Collect input params from the user and  creating the options
 const parser = yargs(hideBin(process.argv))
@@ -58,7 +60,13 @@ if (args.remove || args.r) {
 // Check if user wants to update application
 if (args.update || args.u) {
   // Update to the latest version available on npm repo
-  UpdateApp()
+  checkInternetConnection(isConnected => {
+    if (isConnected) {
+      UpdateApp()
+    } else {
+      console.log(`${failure} No internet connection. Please check your connection and try again.`)
+    }
+  })
 }
 
 // Check to see if no arguments were supplied

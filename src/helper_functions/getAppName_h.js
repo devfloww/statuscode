@@ -7,7 +7,7 @@ import { dirname } from 'path'
 // importing files and functions
 import {
   failure,
-} from "../helper_functions/Tags.js"
+} from "./Tags.js"
 
 // Get the directory name equivalent to __dirname
 const __filename = fileURLToPath(import.meta.url)

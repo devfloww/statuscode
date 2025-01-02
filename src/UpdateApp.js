@@ -4,7 +4,7 @@
 import { exec } from "child_process"
 
 // Imporing files and functions
-import { getAppName } from "./helper_functions/getAppName.js"
+import { getAppName } from "./helper_functions/getAppName_h.js"
 import {
     success,
     process,
