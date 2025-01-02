@@ -4,7 +4,7 @@
   "description": "A CLI application that helps you look up HTTP status codes from your terminal",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/devfloww/statuscode.git"
+    "url": "https://github.com/devfloww/statuscode.git"
   },
   "main": "index.js",
   "type": "module",
@@ -12,7 +12,7 @@
     "test": "statuscode",
     "postuninstall": "node ./src/uninstall.js"
   },
-  "keywords": [],
+  "keywords": ["cli", "app"],
   "author": "devfloww",
   "bin": {
     "statuscode": "./index.js"
