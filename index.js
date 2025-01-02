@@ -12,6 +12,7 @@ import { LoadDataShort, LoadDataLong } from "./src/LoadData.js"
 import { DisplayShort } from "./src/DisplayShort.js"
 import { DisplayLong } from "./src/DisplayLong.js"
 import { Remove } from "./src/uninstall.js"
+import { UpdateApp } from "./src/UpdateApp.js"
 
 // Importing helper functions
 import { sanitize_status_code_h } from "./src/helper_functions/sanitize_status_code.js";
@@ -52,6 +53,12 @@ const args = parser.parse();
 if (args.remove || args.r) {
   // Remove the application 
   Remove()
+}
+
+// Check if user wants to update application
+if (args.update || args.u) {
+  // Update to the latest version available on npm repo
+  UpdateApp()
 }
 
 // Check to see if no arguments were supplied
