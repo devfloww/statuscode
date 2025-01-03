@@ -22,7 +22,7 @@ function UpdateApp() {
   exec(`npm outdated -g ${app_name}`, (error, stdout, stderr) => {
     if (error) {
       console.error(`${failure} Error checking outdated status: ${error.message}`)
-      return;
+      return
     }
 
     if (stderr) {

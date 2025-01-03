@@ -6,8 +6,8 @@ import chalk from "chalk"
 import { warning } from "./helper_functions/Tags.js"
 
 
-// the figety thingy ;-)
-const statusCodeBanner = figlet.textSync("statuscode", {
+// the figety thingy -)
+const httpInfoBanner = figlet.textSync("httpinfo", {
   font: "ANSI Shadow",
   horizontalLayout: "narrow",
   verticalLayout: "narrow",
@@ -24,13 +24,13 @@ const aboutAuthorInfo = `
 // info on hoe to use the tool
 const howToUseInfo = 
 `${warning} - Usage:
-- help: ${chalk.green("statuscode")} [-h | --help]
-- lookup: ${chalk.green("statuscode")} [-c | --code] ${chalk.blue("<code>")} [-l | --long]
+- help: ${chalk.green("httpinfo")} [-h | --help]
+- lookup: ${chalk.green("httpinfo")} [-c | --code] ${chalk.blue("<code>")} [-l | --long]
 `
 
 export const showBanner = () => {
   
-  return `${chalk.underline.magenta(statusCodeBanner)}
+  return `${chalk.underline.magenta(httpInfoBanner)}
   ${aboutAuthorInfo}
   ${howToUseInfo}
   `

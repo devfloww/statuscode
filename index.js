@@ -3,8 +3,8 @@
 // developed by @devfloww
 
 // Importing dependencies
-import yargs from "yargs";
-import { hideBin } from "yargs/helpers";
+import yargs from "yargs"
+import { hideBin } from "yargs/helpers"
 
 // Importing dependent files
 import { showBanner } from "./src/Banner.js"
@@ -13,10 +13,10 @@ import { DisplayShort } from "./src/DisplayShort.js"
 import { DisplayLong } from "./src/DisplayLong.js"
 import { Remove } from "./src/uninstall.js"
 import { UpdateApp } from "./src/UpdateApp.js"
-import { checkInternetConnection } from "./src/helper_functions/checkInternetConnection_h.js"
 
 // Importing helper functions
-import { sanitize_status_code_h } from "./src/helper_functions/sanitize_status_code.js";
+import { sanitize_status_code_h } from "./src/helper_functions/sanitize_status_code.js"
+import { checkInternetConnection } from "./src/helper_functions/checkInternetConnection_h.js"
 import { failure } from "./src/helper_functions/Tags.js"
 
 // Collect input params from the user and  creating the options
@@ -45,10 +45,10 @@ const parser = yargs(hideBin(process.argv))
     alias: "u",
     type: "boolean",
     describe: "Update the tool to the latest version",
-  });
+  })
 
 // parsing the arguments
-const args = parser.parse();
+const args = parser.parse()
 
 // Check to see if user wants to Uninstall the app
 if (args.remove || args.r) {

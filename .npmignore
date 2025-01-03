@@ -1,0 +1,21 @@
+# Development files
+.git
+.github
+.gitignore
+.npmignore
+
+# Source files (if you're compiling/bundling before publishing)
+
+# Test files
+
+# Configuration files
+.eslintrc
+.prettierrc
+
+# Documentation files (if you don't want to include them in the package)
+
+# Misc
+node_modules/
+
+# Project specific
+*workbench.js

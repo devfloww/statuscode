@@ -4,11 +4,11 @@ import dns  from "dns"
 function checkInternetConnection(callback) {
   dns.lookup('google.com', (err) => {
     if (err && err.code === 'ENOTFOUND') {
-      callback(false);
+      callback(false)
     } else {
-      callback(true);
+      callback(true)
     }
-  });
+  })
 }
 
 export {

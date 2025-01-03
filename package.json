@@ -1,10 +1,10 @@
 {
-  "name": "@devfloww/statuscode",
+  "name": "httpinfo",
   "version": "1.0.1",
   "description": "A CLI application that helps you look up HTTP status codes from your terminal",
   "repository": {
     "type": "git",
-    "url": "https://github.com/devfloww/statuscode.git"
+    "url": "https://github.com/devfloww/httpinfo.git"
   },
   "main": "index.js",
   "type": "module",
@@ -19,7 +19,7 @@
     "url": "https://devfloww.github.io/about"
   },
   "bin": {
-    "statuscode": "./index.js"
+    "httpinfo": "./index.js"
   },
   "license": "MIT",
   "dependencies": {

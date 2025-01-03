@@ -1,6 +1,6 @@
-![logo](./assets/images/statuscode-logo.png)
+![logo](./assets/images/httpinfo-logo.png)
 # Description
-`$ statuscode` _HTTP Status Code Lookup_.
+`$ httpinfo` _HTTP Status Code Lookup_.
 
 A CLI app for looking up HTTP status codes from the comfort of your terminal.
 
@@ -14,54 +14,54 @@ Instantly retrieve information on HTTP status codes, including their meaning, de
 
 # Getting Started
 ## Installation
-`statuscode` can be installed using [npm](https://npmjs.com):
+`httpinfo` can be installed using [npm](https://npmjs.com):
 ```bash
-npm install @devfloww/statuscode
+npm install @devfloww/httpinfo
 ```
 or by cloning the repo and installing manually:
 ```bash
 # cloning the repo
-git clone https://github.com/devfloww/statuscode
+git clone https://github.com/devfloww/httpinfo
 # enter the cloned repo directory
-cd statuscode
+cd httpinfo
 # Install the dependences
 npm install
 # Create a symlink of the program
 npm link
 # Now, run the command
-statuscode --help
+httpinfo --help
 # or sometimes on windows 
-statuscode.cmd --help
+httpinfo.cmd --help
 ```
 ## Usage
 - To seek help:
 ```bash
-statuscode [-h | --help]
+httpinfo [-h | --help]
 ```
 - To look-up a status code with a short description (just the name):
 ```bash
-statuscode -c <code>
+httpinfo -c <code>
 ```
 - To look-up a status code with a longer description (meaning, specification, examples): 
 ```bash
-statuscode -c <code> [--l | --long]
+httpinfo -c <code> [--l | --long]
 ```
 - To check version:
 ```bash
-statuscode [-v | --version]
+httpinfo [-v | --version]
 ```
 - To update to latest version of the application
 ```bash
-statuscode --update 
+httpinfo --update 
 ```
 ## Removal 
 And of course, when you don't need it anymore and want to remove it, run:
 ```bash
-statuscode --remove
+httpinfo --remove
 ```
 or 
 ```bash
-npm remove statuscode
+npm remove httpinfo
 ```
 > If you were not satisfied with the experience you had with this tool, please do me a favor and call my attention for improvements. This will help me a lot and I will very much appreciate that.😅
 
