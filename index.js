@@ -21,7 +21,6 @@ import { failure } from "./src/helper_functions/Tags.js"
 
 // Collect input params from the user and  creating the options
 const parser = yargs(hideBin(process.argv))
-  .help(false)
   .option("help", {
     alias: "h",
     type: "boolean",
