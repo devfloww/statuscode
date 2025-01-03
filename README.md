@@ -1,9 +1,6 @@
 ![logo](./assets/images/statuscode-logo.png)
 # Description
-`$ statuscode` _HTTP Status Code Lookup_
-
-> ⛔
-__Caution:__ `statuscode` is still under development. Do not try to install it.
+`$ statuscode` _HTTP Status Code Lookup_.
 
 A CLI app for looking up HTTP status codes from the comfort of your terminal.
 
@@ -19,7 +16,7 @@ Instantly retrieve information on HTTP status codes, including their meaning, de
 ## Installation
 `statuscode` can be installed using [npm](https://npmjs.com):
 ```bash
-npm install statuscode
+npm install @devfloww/statuscode
 ```
 or by cloning the repo and installing manually:
 ```bash
