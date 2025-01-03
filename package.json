@@ -13,7 +13,11 @@
     "postuninstall": "node ./src/uninstall.js"
   },
   "keywords": ["cli", "app"],
-  "author": "devfloww",
+  "author": {
+    "name": "Sadiq hayatuddeen",
+    "email": "svdiqhayatuddeen@gmail.com",
+    "url": "https://devfloww.github.io/about"
+  },
   "bin": {
     "statuscode": "./index.js"
   },
