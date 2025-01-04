@@ -41,4 +41,6 @@ const Remove =() => {
     }
 }
 
-Remove()
+export {
+    Remove
+}
