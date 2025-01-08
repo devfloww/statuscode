@@ -1,5 +1,5 @@
 {
-  "name": "httpinfo",
+  "name": "@sadiqhayatuddeen/httpinfo",
   "version": "1.0.1",
   "description": "A CLI application that helps you look up HTTP status codes from your terminal",
   "repository": {
@@ -9,7 +9,7 @@
   "main": "index.js",
   "type": "module",
   "scripts": {
-    "test": "statuscode",
+    "test": "httpinfo",
     "postuninstall": "node ./src/uninstall.js"
   },
   "keywords": ["cli", "app"],
