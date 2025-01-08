@@ -8,7 +8,6 @@ import {failure, success} from "./helper_functions/Tags.js"
 
 export const DisplayLong = ( code_data ) => {
     // checking whether what we got was data or error
-    // console.log(code_data)
     if (code_data.err_code === -1) {
         // means that the code is out of range
         const error_message = 

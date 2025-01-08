@@ -1,7 +1,7 @@
 {
-  "code": 301,
-  "name": "Moved Permanently",
-  "description": "Indicates that the resource has been permanently moved to a new location.",
+  "code": 302,
+  "name": "Found",
+  "description": "Indicates that the resource has been temporarily moved to a new location.",
   "specification": "HTTP/1.1 specification (RFC 2616)",
-  "reference": "https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/301"
+  "reference": "https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/302"
 }

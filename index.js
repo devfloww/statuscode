@@ -79,7 +79,6 @@ if (!(args.code || args.help || args.remove || args.update || args.long || args.
 // check if status code was  supplied by user
 if (args.code || args.c) {
   const sanitized_code = sanitize_status_code_h(args.code)
-
   // check if the long flag is enabled
   if (args.long && args.l) {
     // display the long version

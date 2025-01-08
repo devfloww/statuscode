@@ -1,7 +1,0 @@
-{
-  "code": 308,
-  "name": "Permanent Redirect",
-  "description": "Indicates that the resource has been permanently moved to a new location, and future requests should be directed to the new location.",
-  "specification": "HTTP/1.1 specification (RFC 7238)",
-  "reference": "https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/308"
-}

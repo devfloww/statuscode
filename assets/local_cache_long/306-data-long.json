@@ -1,7 +1,7 @@
 {
-  "code": 305,
-  "name": "Use Proxy",
-  "description": "Indicates that the client should use a proxy to access the requested resource.",
+  "code": 306,
+  "name": "Switch Proxy",
+  "description": "This code was used in an earlier version of HTTP, but it is now obsolete.",
   "specification": "HTTP/1.1 specification (RFC 2616)",
-  "reference": "https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/305"
+  "reference": "https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/306"
 }
