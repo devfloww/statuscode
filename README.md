@@ -16,7 +16,7 @@ Instantly retrieve information on HTTP status codes, including their meaning, de
 ## Installation
 `httpinfo` can be installed using [npm](https://npmjs.com):
 ```bash
-npm install -g httpinfo
+npm install -g @sadiqhayatuddeen/httpinfo
 ```
 or by cloning the repo and installing manually:
 ```bash
@@ -47,7 +47,7 @@ httpinfo -c <code>
 httpinfo -c <code> [--l | --long]
 ```
 - To check version:
-```bash
+```bash@sadiqhayatuddeen/httpinfo
 httpinfo [-v | --version]
 ```
 - To update to latest version of the application
