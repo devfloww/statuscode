@@ -18,7 +18,7 @@ Instantly retrieve information on HTTP status codes, including their meaning, de
 ```bash
 npm install -g @sadiqhayatuddeen/httpinfo
 ```
-or by cloning the repo and installing manually:
+or by cloning the repo and installing manually: (__Recommended__)
 ```bash
 # cloning the repo
 git clone https://github.com/devfloww/httpinfo
