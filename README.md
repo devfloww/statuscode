@@ -16,7 +16,7 @@ Instantly retrieve information on HTTP status codes, including their meaning, de
 ## Installation
 `httpinfo` can be installed using [npm](https://npmjs.com):
 ```bash
-npm install @devfloww/httpinfo
+npm install -g httpinfo
 ```
 or by cloning the repo and installing manually:
 ```bash
